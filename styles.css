@@ -1,5 +1,5 @@
 html {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', Helvetica, sans-serif;
 }
 
 body {
@@ -18,7 +18,7 @@ main {
 }
 
 main > .intro {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', Helvetica, sans-serif;
 	font-size: 3.5em;
 	font-weight: 600;
 }
@@ -29,36 +29,22 @@ main > .tagline {
 	font-weight: 100;
 }
 
-.social > .social-link {
+.social {
+	border: 1px solid transparent;
 	color: #FAFAFA;
 	font-size: 0.9rem;
+	font-weight: bold;
+	padding: 2px;
 	text-decoration: none;
 }
 
-.social-link {
-	display: inline-block;
-	padding-bottom: 4px;
-	position: relative;
+.social:hover {
+	background: #FAFAFA;
+	color: #4285f4;
+	border: 1px solid #FAFAFA;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
 }
-
-.social-link:after {
-	background: none repeat scroll 0 0 transparent;
-	bottom: 0;
-	content: "";
-	display: block;
-	height: 2px;
-	left: 50%;
-	position: absolute;
-	background: #fff;
-	transition: width 0.3s ease 0s, left 0.3s ease 0s;
-	-webkit-transition: width 0.3s ease 0s, left 0.3s ease 0s;
-	-moz-transition: width 0.3s ease 0s, left 0.3s ease 0s;
-	-ms-transition: width 0.3s ease 0s, left 0.3s ease 0s;
-	-o-transition: width 0.3s ease 0s, left 0.3s ease 0s;
-	width: 0;
-}
-
-  .social-link:hover:after { 
-	width: 100%; 
-	left: 0; 
-  }
