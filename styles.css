@@ -29,6 +29,10 @@ main > .tagline {
 	font-weight: 100;
 }
 
+main > .social {
+	padding: 1em;
+}
+
 a {
 	border: 2px solid #FAFAFA;
 	border-radius: 4px;
