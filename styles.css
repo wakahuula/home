@@ -1,5 +1,5 @@
 html {
-	font-family: 'Roboto', Helvetica, sans-serif;
+	font-family: 'Fira Mono', Consolas, Helvetica, sans-serif;
 }
 
 body {
@@ -18,9 +18,8 @@ main {
 }
 
 main > .intro {
-	font-family: 'Roboto', Helvetica, sans-serif;
 	font-size: 3.5em;
-	font-weight: 600;
+	font-weight: 700;
 }
 
 main > .tagline {
