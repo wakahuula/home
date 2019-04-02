@@ -7,25 +7,24 @@ body {
 }
 
 main {
-	background: #4285f4;
-	color: #FAFAFA;
+	background: #c60a15;
+	color: #fff;
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
-	height: 100px;
 	justify-content: center;
-	padding: 0 30px;
 	text-align: center;
+	text-shadow: 1px 1px 1px black, 1px -1px 1px black, -1px 1px 1px black, -1px -1px 1px black;
 }
 
 main > .intro {
-	font-size: 3.5em;
+	font-size: 5em;
 	font-weight: 700;
 }
 
 main > .tagline {
-	font-size: 1.3rem;
-	margin: 1.3rem 0;
+	font-size: 2rem;
+	margin: 1.4rem 0;
 	font-weight: 100;
 }
 
@@ -34,14 +33,15 @@ main > .social {
 }
 
 .social {
-	border: 2px solid #FAFAFA;
+	border: 2px solid #000;
 	border-radius: 4px;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	-ms-border-radius: 4px;
 	-o-border-radius: 4px;
-	color: #FAFAFA;
-	font-size: 0.9rem;
+	color: #fff;
+	display: inline-block;
+	font-size: 0.8rem;
 	font-weight: bold;
 	padding: 4px;
 	margin: 4px;
@@ -50,6 +50,7 @@ main > .social {
 }
 
 .social:hover {
-	background: #FAFAFA;
-	color: #4285f4;
+	background: #fff;
+	color: #000;
+	text-shadow: none;
 }
