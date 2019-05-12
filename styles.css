@@ -7,14 +7,13 @@ body {
 }
 
 main {
-	background: #c60a15;
-	color: #fff;
+	background: #4285f4;
+	color: #fafafa;
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
 	justify-content: center;
 	text-align: center;
-	text-shadow: 1px 1px 1px black, 1px -1px 1px black, -1px 1px 1px black, -1px -1px 1px black;
 }
 
 main > .intro {
@@ -33,13 +32,13 @@ main > .social {
 }
 
 .social {
-	border: 2px solid #000;
+	border: 2px solid #fafafa;
 	border-radius: 4px;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	-ms-border-radius: 4px;
 	-o-border-radius: 4px;
-	color: #fff;
+	color: #fafafa;
 	display: inline-block;
 	font-weight: bold;
 	padding: 4px;
@@ -49,7 +48,6 @@ main > .social {
 }
 
 .social:hover {
-	background: #fff;
-	color: #000;
-	text-shadow: none;
+	background: #fafafa;
+	color: #4285f4;
 }
