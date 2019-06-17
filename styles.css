@@ -7,7 +7,7 @@ body {
 }
 
 main {
-	background: #4856a3;
+	background: #5261b3;
 	color: #fafafa;
 	display: flex;
 	flex-direction: column;
@@ -49,5 +49,5 @@ main > .social {
 
 .social:hover {
 	background: #fafafa;
-	color: #4856a3;
+	color: #5261b3;
 }
