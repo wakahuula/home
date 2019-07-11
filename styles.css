@@ -11,24 +11,32 @@ main {
 	color: #fafafa;
 	display: flex;
 	flex-direction: column;
-	min-height: 100vh;
+    min-height: 100vh;
+    align-items: center;
 	justify-content: center;
 	text-align: center;
 }
 
-main > .intro {
+.picture {
+    border: 8px solid #fafafa;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    width: 300px;
+}
+
+.intro {
 	font-size: 4em;
 	font-weight: 700;
 }
 
-main > .tagline {
+.tagline {
 	font-size: 2rem;
 	margin: 1.8rem 0;
 	font-weight: 100;
-}
-
-main > .social {
-	padding: 1em;
 }
 
 .social {
