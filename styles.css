@@ -1,3 +1,13 @@
+::selection {
+	background: #fafafa;
+	color: #446ccf;
+}
+
+::-moz-selection {
+	background: #fafafa;
+	color: #446ccf;
+}
+
 html {
 	font-family: 'Fira Mono', Consolas, Helvetica, sans-serif;
 }
