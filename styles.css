@@ -70,3 +70,9 @@ main {
 	background: #fafafa;
 	color: #446ccf;
 }
+
+.telegram-comments {
+	margin: 1.8rem;
+	max-width: 600px;
+	width: 100%;
+}
