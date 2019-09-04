@@ -36,6 +36,7 @@ main {
     -o-border-radius: 50%;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 	filter: grayscale(1);
+	margin: 1.4rem 0;
     width: 300px;
 }
 
@@ -72,7 +73,7 @@ main {
 }
 
 .telegram-comments {
-	margin: 1.8rem;
+	margin: 1.4rem;
 	max-width: 600px;
 	width: 100%;
 }
