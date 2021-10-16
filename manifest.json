@@ -1,29 +1,29 @@
 {
-    "dir": "ltr",
-    "lang": "en",
-    "name": "stoupas.de",
-    "short_name": "Stoupas",
-    "scope": "/",
-    "display": "standalone",
-    "start_url": "https://stoupas.de/",
-    "background_color": "#446ccf",
-    "theme_color": "#446ccf",
-    "description": "Personal website of Konstantinos Stoupas",
-    "orientation": "any",
-    "related_applications": [],
-    "prefer_related_applications": false,
-    "icons": [
-        {
-            "sizes": "192x192",
-            "type": "image/png",
-            "src": "/assets/icon-192x192.png"
-        },
-        {
-            "sizes": "512x512",
-            "type": "image/png",
-            "src": "/assets/icon-512x512.png"
-        }
-    ],
-    "url": "https://stoupas.de/",
-    "screenshots": []
+  "dir": "ltr",
+  "lang": "en",
+  "name": "stoupas.de",
+  "short_name": "Stoupas",
+  "scope": "/",
+  "display": "standalone",
+  "start_url": "https://stoupas.de/",
+  "background_color": "#446ccf",
+  "theme_color": "#446ccf",
+  "description": "Personal website of Konstantinos Stoupas",
+  "orientation": "any",
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "sizes": "192x192",
+      "type": "image/png",
+      "src": "/assets/icon-192x192.png"
+    },
+    {
+      "sizes": "512x512",
+      "type": "image/png",
+      "src": "/assets/icon-512x512.png"
+    }
+  ],
+  "url": "https://stoupas.de/",
+  "screenshots": []
 }
