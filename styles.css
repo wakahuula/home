@@ -1,7 +1,14 @@
 ::selection,
 ::-moz-selection {
-  background: #fafafa;
-  color: #446ccf;
+  background: #333333;
+  color: #9bc8cb;
+}
+
+:root {
+  --bg: #9bc8cb;
+  --border-radius: 20px;
+  --border-radius-s: 8px;
+  --text-color: #333333;
 }
 
 html {
@@ -13,8 +20,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #446ccf;
-  color: #fafafa;
+  background: var(--bg);
+  color: var(--text-color);
   margin: 0;
   height: 100vh;
   width: 100%;
@@ -25,14 +32,23 @@ main {
   gap: 12px;
 }
 
+.picture-bg {
+  background: var(--text-color);
+  border-radius: var(--border-radius);
+  -webkit-border-radius: var(--border-radius);
+  -moz-border-radius: var(--border-radius);
+  -ms-border-radius: var(--border-radius);
+  -o-border-radius: var(--border-radius);
+  padding: 8px;
+}
+
 .picture {
-  border: 8px solid #fafafa;
-  border-radius: 12px;
-  -webkit-border-radius: 12px;
-  -moz-border-radius: 12px;
-  -ms-border-radius: 12px;
-  -o-border-radius: 12px;
-  width: 24em;
+  border-radius: var(--border-radius);
+  -webkit-border-radius: var(--border-radius);
+  -moz-border-radius: var(--border-radius);
+  -ms-border-radius: var(--border-radius);
+  -o-border-radius: var(--border-radius);
+  width: 28em;
 }
 
 .right {
@@ -64,13 +80,13 @@ main {
 }
 
 .social {
-  border: 2px solid #fafafa;
-  border-radius: 6px;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  -ms-border-radius: 6px;
-  -o-border-radius: 6px;
-  color: #fafafa;
+  border: 2px solid var(--text-color);
+  border-radius: var(--border-radius-s);
+  -webkit-border-radius: var(--border-radius-s);
+  -moz-border-radius: var(--border-radius-s);
+  -ms-border-radius: var(--border-radius-s);
+  -o-border-radius: var(--border-radius-s);
+  color: var(--text-color);
   font-weight: bold;
   padding: 6px;
   text-decoration: none;
@@ -78,8 +94,8 @@ main {
 }
 
 .social:hover {
-  background: #fafafa;
-  color: #446ccf;
+  background: var(--text-color);
+  color: var(--bg);
 }
 
 @media only screen and (max-width: 730px) {
