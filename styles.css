@@ -1,14 +1,8 @@
-::selection,
-::-moz-selection {
-  background: #333333;
-  color: #9bc8cb;
-}
-
 :root {
-  --bg: #9bc8cb;
+  --bg: #3d72d0;
   --border-radius: 20px;
   --border-radius-s: 8px;
-  --text-color: #333333;
+  --text-color: #ffffff;
 }
 
 html {
@@ -33,22 +27,17 @@ main {
 }
 
 .picture-bg {
-  background: var(--text-color);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: var(--border-radius);
-  -webkit-border-radius: var(--border-radius);
-  -moz-border-radius: var(--border-radius);
-  -ms-border-radius: var(--border-radius);
-  -o-border-radius: var(--border-radius);
-  padding: 8px;
+  box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+  overflow: hidden;
+  width: 28em;
+  height: 28em;
 }
 
 .picture {
-  border-radius: var(--border-radius);
-  -webkit-border-radius: var(--border-radius);
-  -moz-border-radius: var(--border-radius);
-  -ms-border-radius: var(--border-radius);
-  -o-border-radius: var(--border-radius);
-  width: 28em;
+  max-width: 100%;
 }
 
 .right {
@@ -82,10 +71,6 @@ main {
 .social {
   border: 2px solid var(--text-color);
   border-radius: var(--border-radius-s);
-  -webkit-border-radius: var(--border-radius-s);
-  -moz-border-radius: var(--border-radius-s);
-  -ms-border-radius: var(--border-radius-s);
-  -o-border-radius: var(--border-radius-s);
   color: var(--text-color);
   font-weight: bold;
   padding: 6px;
