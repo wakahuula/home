@@ -1,5 +1,5 @@
 :root {
-  --bg: #3d72d0;
+  --bg: #446ccf;
   --border-radius: 20px;
   --border-radius-s: 8px;
   --text-color: #ffffff;
@@ -69,10 +69,9 @@ main {
 }
 
 .social {
-  border: 2px solid var(--text-color);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: var(--border-radius-s);
   color: var(--text-color);
-  font-weight: bold;
   padding: 6px;
   text-decoration: none;
   transition: all 120ms ease;
