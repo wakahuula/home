@@ -68,8 +68,9 @@ section {
   font-weight: 700;
 }
 
-.tagline {
-  line-height: 1.4rem;
+.infos {
+  display: flex;
+  flex-direction: column;
 }
 
 .btns {
