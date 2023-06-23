@@ -7,6 +7,7 @@
   --space2: calc(var(--space) * 2);
   --space3: calc(var(--space) * 3);
   --space4: calc(var(--space) * 4);
+  --space8: calc(var(--space) * 8);
 }
 
 html {
@@ -28,6 +29,7 @@ body {
 main {
   display: flex;
   gap: var(--space3);
+  padding: var(--space8);
 }
 
 a {
@@ -46,8 +48,8 @@ section {
   border-radius: var(--border-radius);
   box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
   overflow: hidden;
-  width: 28em;
-  height: 28em;
+  width: 26em;
+  height: 26em;
 }
 
 .picture {
@@ -68,7 +70,6 @@ section {
 
 .tagline {
   line-height: 1.4rem;
-  max-width: 20vw;
 }
 
 .btns {
@@ -92,6 +93,7 @@ section {
 
 @media only screen and (max-width: 730px) {
   main {
+    align-items: center;
     flex-direction: column;
   }
 }
