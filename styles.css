@@ -83,8 +83,10 @@ section {
   border-radius: var(--border-radius-s);
   color: var(--text-color);
   padding: 6px;
+  text-align: center;
   text-decoration: none;
   transition: all 120ms ease;
+  min-width: 2em;
 }
 
 .btns a:hover {
