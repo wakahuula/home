@@ -28,7 +28,8 @@ body {
 
 main {
   display: flex;
-  gap: var(--space3);
+  flex-direction: column;
+  gap: var(--space4);
   padding: var(--space8);
 }
 
@@ -40,27 +41,6 @@ section {
   display: flex;
   flex-direction: column;
   gap: var(--space);
-}
-
-.picture-bg {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: var(--border-radius);
-  box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
-  overflow: hidden;
-  width: 26em;
-  height: 26em;
-}
-
-.picture {
-  max-width: 100%;
-}
-
-.right {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  gap: var(--space4);
 }
 
 .intro {
