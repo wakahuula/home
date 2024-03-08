@@ -1,13 +1,6 @@
 :root {
   --bg: #446ccf;
-  --border-radius: 20px;
-  --border-radius-s: 8px;
   --text-color: #ffffff;
-  --space: 4px;
-  --space2: calc(var(--space) * 2);
-  --space3: calc(var(--space) * 3);
-  --space4: calc(var(--space) * 4);
-  --space8: calc(var(--space) * 8);
 }
 
 html {
@@ -29,8 +22,7 @@ body {
 main {
   display: flex;
   flex-direction: column;
-  gap: var(--space4);
-  padding: var(--space8);
+  gap: 16px;
 }
 
 a {
@@ -40,7 +32,7 @@ a {
 section {
   display: flex;
   flex-direction: column;
-  gap: var(--space);
+  gap: 4px;
 }
 
 .intro {
@@ -55,12 +47,12 @@ section {
 
 .btns {
   display: flex;
-  gap: var(--space2);
+  gap: 8px;
 }
 
 .btns a {
   border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: var(--border-radius-s);
+  border-radius: 6px;
   color: var(--text-color);
   padding: 6px;
   text-align: center;
@@ -72,11 +64,4 @@ section {
 .btns a:hover {
   background: var(--text-color);
   color: var(--bg);
-}
-
-@media only screen and (max-width: 730px) {
-  main {
-    align-items: center;
-    flex-direction: column;
-  }
 }
